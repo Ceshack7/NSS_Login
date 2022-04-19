@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+header{
+  background-image: url('assets/image7.jpg');
+  background-size: cover;
+  background-attachment: static;
+  padding: 10px;
+  height: 500px;
+  background-position: center center;
+}
+
+.header-container p{
+  color: #fff;
+  font-size: 30px;
+}
+
+.header-container span{
+  color: red;
+}
+
+.p-1{
+  text-align: center;
+  color: #fff;
+  margin-top: 145px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.p-2{
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-top: 10px;
+}
+
+.header-a-container{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header-a-container a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 10px;
+  background-color: #343434;
+  border-radius: 3px;
+  box-shadow: 1px 0px 2px 3px #343434;
+}
+
+.s-1{
+  color: red;
+}
+
+.main{
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.315);
+  margin-top: 150px !important;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 550px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.seccion-form h2{
+  font-size: 30px;
+}
+
+#input-1,
+#input-2,
+#input-3{
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  width: 250px;
+}
+
+#input-1,
+#input-2{
+  padding: 15px;
+}
+
+#input-3{
+  resize: none;
+  padding-bottom: 80px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.a-container{
+  margin-top: 20px;
+}
+
+.a-1,
+.a-2{
+  color: #48e;
+}
+
+.a-1{
+  margin-right: 35px;
+}
+
+.a-1:hover{
+  border-bottom: 1px solid #48e;
+}
+
+.a-2:hover{
+  border-bottom: 1px solid #48e;
+}
+
+.boton-enviar{
+  display: grid;
+  margin-top: 40px;
+  width: 200px;
+}
+
+#enviar{
+  color: #fff;
+  background-color: #47e;
+  border: none;
+  padding: 15px;
+  font-weight: 1000;
+  border-radius: 3px;
+  box-shadow: 1px 0px 2px 1px #47e;
+}
+
+.footer{
+  background-color: #343434;
+  padding-bottom: 100px;
+  margin-top: 200px;
+}
+
+.footer-p{
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 50% !important;
+}
+
+.p-footer{
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px){ 
+  footer{
+    height: 500px;
+  }
+}
+
+@media (min-width: 1200px){ 
+  footer{
+    height: 500px;
+  }
+}
